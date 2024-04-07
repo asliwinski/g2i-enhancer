@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "G2i Enhancer",
+  "version": "1.0",
+  "permissions": ["storage", "webNavigation", "scripting"],
+  "background": {
+    "service_worker": "background.js",
+    "matches": ["https://portal.g2i.co/jobs?filter=new"]
+  },
+  "host_permissions": [
+    "https://portal.g2i.co/"
+  ]
+}

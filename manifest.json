@@ -5,7 +5,7 @@
   "permissions": ["storage", "webNavigation", "scripting"],
   "background": {
     "service_worker": "background.js",
-    "matches": ["https://portal.g2i.co/jobs?filter=new"]
+    "matches": ["https://portal.g2i.co/jobs"]
   },
   "host_permissions": [
     "https://portal.g2i.co/"

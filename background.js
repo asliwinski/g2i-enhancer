@@ -4,5 +4,4 @@ chrome.webNavigation.onHistoryStateUpdated.addListener(function(details) {
       target: {tabId: details.tabId},
       files: ['script.js']
     });
-  // }
 });
